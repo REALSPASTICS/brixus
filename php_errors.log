@@ -1,0 +1,230 @@
+[27-Mar-2024 11:34:47 UTC] PHP Warning:  Undefined variable $database in C:\inetpub\wwwroot\doshit.php on line 8
+[27-Mar-2024 13:26:44 UTC] PHP Warning:  Undefined variable $itemid in C:\inetpub\wwwroot\render_item.php on line 331
+[27-Mar-2024 13:36:39 UTC] PHP Parse error:  Unclosed '{' on line 147 in C:\inetpub\wwwroot\item.php on line 253
+[27-Mar-2024 13:36:53 UTC] PHP Warning:  Undefined array key "is_pending_moderation" in C:\inetpub\wwwroot\item.php on line 140
+[27-Mar-2024 15:49:44 UTC] PHP Warning:  Undefined variable $itemQuery in C:\inetpub\wwwroot\item.php on line 8
+[27-Mar-2024 15:49:44 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in C:\inetpub\wwwroot\item.php:8
+Stack trace:
+#0 C:\inetpub\wwwroot\item.php(8): mysqli_fetch_assoc()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\item.php on line 8
+[27-Mar-2024 15:50:06 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '` WHERE `id` = 5' at line 1 in C:\inetpub\wwwroot\item.php:7
+Stack trace:
+#0 C:\inetpub\wwwroot\item.php(7): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\item.php on line 7
+[27-Mar-2024 20:48:33 UTC] PHP Warning:  Undefined variable $item in C:\inetpub\wwwroot\render_item.php on line 130
+[27-Mar-2024 20:48:33 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\render_item.php on line 130
+[27-Mar-2024 21:12:56 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:12:57 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:12:58 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:13:00 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:13:01 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:13:03 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:13:48 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:14:16 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:14:24 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:14:41 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:15:06 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:15:33 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:15:49 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:15:58 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:16:19 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 21:17:59 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\testrender.php on line 73
+[27-Mar-2024 22:42:35 UTC] PHP Fatal error:  Uncaught Error: Object of class mysqli could not be converted to string in C:\inetpub\wwwroot\item.php:74
+Stack trace:
+#0 {main}
+  thrown in C:\inetpub\wwwroot\item.php on line 74
+[27-Mar-2024 23:46:27 UTC] PHP Warning:  Undefined variable $invitem in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:27 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\inetpub\wwwroot\profile_inventory.php:17
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(17): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:28 UTC] PHP Warning:  Undefined variable $invitem in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:28 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:28 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\inetpub\wwwroot\profile_inventory.php:17
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(17): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:52 UTC] PHP Warning:  Undefined variable $invitem in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:52 UTC] PHP Warning:  Trying to access array offset on null in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:46:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1 in C:\inetpub\wwwroot\profile_inventory.php:17
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(17): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 17
+[27-Mar-2024 23:48:48 UTC] PHP Warning:  Undefined variable $typeQuery in C:\inetpub\wwwroot\profile_inventory.php on line 18
+[27-Mar-2024 23:48:48 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in C:\inetpub\wwwroot\profile_inventory.php:18
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(18): mysqli_fetch_assoc()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 18
+[27-Mar-2024 23:48:49 UTC] PHP Warning:  Undefined variable $typeQuery in C:\inetpub\wwwroot\profile_inventory.php on line 18
+[27-Mar-2024 23:48:49 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in C:\inetpub\wwwroot\profile_inventory.php:18
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(18): mysqli_fetch_assoc()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 18
+[27-Mar-2024 23:48:50 UTC] PHP Warning:  Undefined variable $typeQuery in C:\inetpub\wwwroot\profile_inventory.php on line 18
+[27-Mar-2024 23:48:50 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, null given in C:\inetpub\wwwroot\profile_inventory.php:18
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(18): mysqli_fetch_assoc()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 18
+[28-Mar-2024 01:18:01 UTC] PHP Parse error:  syntax error, unexpected token ";" in C:\inetpub\wwwroot\profile_inventory.php on line 23
+[28-Mar-2024 01:34:55 UTC] PHP Warning:  Undefined variable $isItemOwned in C:\inetpub\wwwroot\item.php on line 86
+[28-Mar-2024 01:45:13 UTC] PHP Warning:  Undefined variable $isItemOwned in C:\inetpub\wwwroot\item.php on line 86
+[28-Mar-2024 03:43:27 UTC] PHP Warning:  Undefined array key "type" in C:\inetpub\wwwroot\profile_inventory.php on line 7
+[28-Mar-2024 03:43:27 UTC] PHP Warning:  Undefined array key "page" in C:\inetpub\wwwroot\profile_inventory.php on line 8
+[28-Mar-2024 03:43:27 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 8 in C:\inetpub\wwwroot\profile_inventory.php:29
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(29): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 29
+[28-Mar-2024 10:29:52 UTC] PHP Warning:  Undefined array key "type" in C:\inetpub\wwwroot\profile_inventory.php on line 7
+[28-Mar-2024 10:29:52 UTC] PHP Warning:  Undefined array key "page" in C:\inetpub\wwwroot\profile_inventory.php on line 8
+[28-Mar-2024 10:29:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10, 10' at line 8 in C:\inetpub\wwwroot\profile_inventory.php:29
+Stack trace:
+#0 C:\inetpub\wwwroot\profile_inventory.php(29): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\profile_inventory.php on line 29
+[28-Mar-2024 10:34:57 UTC] PHP Warning:  Undefined variable $power in C:\inetpub\wwwroot\user.php on line 64
+[28-Mar-2024 10:36:38 UTC] PHP Warning:  Undefined variable $power in C:\inetpub\wwwroot\user.php on line 32
+[28-Mar-2024 18:42:34 UTC] PHP Warning:  Undefined variable $isItemOwned in C:\inetpub\wwwroot\item.php on line 86
+[29-Mar-2024 20:58:55 UTC] PHP Warning:  Undefined array key "isWarning" in C:\inetpub\wwwroot\account_status.php on line 17
+[29-Mar-2024 20:58:55 UTC] PHP Warning:  Undefined array key "isWarning" in C:\inetpub\wwwroot\account_status.php on line 27
+[29-Mar-2024 20:59:39 UTC] PHP Parse error:  Unclosed '[' does not match ')' in C:\inetpub\wwwroot\account_status.php on line 17
+[30-Mar-2024 05:35:45 UTC] PHP Warning:  Undefined variable $isItemOwned in C:\inetpub\wwwroot\item.php on line 86
+[30-Mar-2024 16:45:56 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:46:02 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:46:10 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:51:06 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:51:13 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:54:36 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:55:04 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:55:37 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:55:55 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:55:58 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 16:56:02 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 17:08:55 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 17:09:10 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 17:13:53 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:01:51 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:07:45 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:13:46 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:13:54 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:16:51 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:19:17 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:20:46 UTC] PHP Warning:  Undefined variable $isItemOwned in C:\inetpub\wwwroot\item.php on line 86
+[30-Mar-2024 18:28:52 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 18:35:33 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:28:27 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:35:14 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:41:21 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:47:20 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:47:27 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:47:47 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:47:52 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:50:22 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 19:51:35 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 20:14:54 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 20:24:02 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 20:24:13 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 20:24:28 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 20:44:48 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 20:53:12 UTC] PHP Warning:  include(../site/config.php): Failed to open stream: No such file or directory in C:\inetpub\wwwroot\wealth.php on line 2
+[30-Mar-2024 20:53:12 UTC] PHP Warning:  include(): Failed opening '../site/config.php' for inclusion (include_path='.;C:\php\pear') in C:\inetpub\wwwroot\wealth.php on line 2
+[30-Mar-2024 20:53:12 UTC] PHP Warning:  Undefined variable $conn in C:\inetpub\wwwroot\wealth.php on line 4
+[30-Mar-2024 20:53:12 UTC] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in C:\inetpub\wwwroot\wealth.php:4
+Stack trace:
+#0 C:\inetpub\wwwroot\wealth.php(4): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\wealth.php on line 4
+[30-Mar-2024 21:10:36 UTC] PHP Warning:  Undefined array key "face" in C:\inetpub\wwwroot\testrender.php on line 114
+[30-Mar-2024 21:10:45 UTC] PHP Warning:  Undefined array key "face" in C:\inetpub\wwwroot\testrender.php on line 114
+[30-Mar-2024 21:10:54 UTC] PHP Warning:  Undefined array key "face" in C:\inetpub\wwwroot\testrender.php on line 114
+[30-Mar-2024 21:10:56 UTC] PHP Warning:  Undefined array key "face" in C:\inetpub\wwwroot\testrender.php on line 114
+[30-Mar-2024 21:37:05 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:37:11 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:37:25 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:37:30 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:37:45 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:37:49 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:38:04 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:38:09 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 21:46:21 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'm also a bat.', CURRENT_TIME)' at line 1 in C:\inetpub\wwwroot\user.php:35
+Stack trace:
+#0 C:\inetpub\wwwroot\user.php(35): mysqli_query()
+#1 {main}
+  thrown in C:\inetpub\wwwroot\user.php on line 35
+[30-Mar-2024 22:43:56 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 23:36:34 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 23:36:51 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[30-Mar-2024 23:37:18 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 00:20:55 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 01:18:39 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 01:25:28 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 02:36:55 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 03:59:52 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 04:00:19 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 04:36:51 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 04:36:56 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 04:41:43 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 04:42:20 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 04:43:26 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 05:10:22 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:20:18 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:20:21 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:21:12 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:21:16 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:21:35 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:37:11 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:37:16 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:39:32 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 06:51:46 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 07:22:40 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:01:23 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:14:04 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:14:21 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:14:54 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:17:05 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:19:26 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:25:12 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:25:19 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 08:25:25 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 12:02:09 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 12:02:58 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 12:03:44 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 16:37:07 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 18:27:50 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 20:33:32 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[31-Mar-2024 22:05:12 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 01:33:46 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 08:59:57 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 09:00:54 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 09:01:13 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 09:07:30 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 09:09:41 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 09:10:01 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 09:17:15 UTC] PHP Warning:  Undefined variable $isItemOwned in C:\inetpub\wwwroot\item.php on line 86
+[01-Apr-2024 10:27:32 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:32:59 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:33:08 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:33:16 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:33:16 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:33:21 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:33:32 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:34:54 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 10:35:01 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 11:33:54 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 11:34:06 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 11:43:50 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 11:43:56 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 12:00:05 UTC] PHP Warning:  Undefined array key "zoom" in C:\inetpub\wwwroot\editItem.php on line 33
+[01-Apr-2024 18:57:51 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\inetpub\wwwroot\site\config.php on line 50
+[01-Apr-2024 18:57:53 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\inetpub\wwwroot\site\config.php on line 50
+[01-Apr-2024 18:59:43 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\inetpub\wwwroot\site\config.php on line 50
+[01-Apr-2024 18:59:43 UTC] PHP Warning:  session_set_cookie_params(): Session cookie parameters cannot be changed when a session is active in C:\inetpub\wwwroot\site\config.php on line 50
